@@ -1,1 +1,18 @@
-.nir
+# Python
+.nir/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# qmake / сборка
+analysis_app
+Makefile
+.qmake.stash
+*.o
+moc_*
+build*/
+
+# IDE
+.vscode/
+.idea/

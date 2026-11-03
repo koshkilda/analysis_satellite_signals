@@ -4,21 +4,21 @@ TARGET = analysis_app
 
 QT -= gui widgets charts network
 
-SOURCES += main.cpp \
-           auto_kmeans.cpp \
-           dbscan.cpp \
-           kde.cpp \
-           analysis_utils.cpp \
-           data_analyzer.cpp \
-           em.cpp \
-           metric.cpp
+SOURCES += src/main.cpp \
+           src/auto_kmeans.cpp \
+           src/dbscan.cpp \
+           src/kde.cpp \
+           src/analysis_utils.cpp \
+           src/data_analyzer.cpp \
+           src/em.cpp \
+           src/metric.cpp
 
-HEADERS += auto_kmeans.hpp \
-           dbscan.hpp \
-           kde.hpp \
-           analysis_utils.hpp \
-           data_analyzer.hpp \
-           em.hpp \
-           metric.hpp
+HEADERS += src/auto_kmeans.hpp \
+           src/dbscan.hpp \
+           src/kde.hpp \
+           src/analysis_utils.hpp \
+           src/data_analyzer.hpp \
+           src/em.hpp \
+           src/metric.hpp
 
 QMAKE_CXXFLAGS += -std=c++17 -fPIC
